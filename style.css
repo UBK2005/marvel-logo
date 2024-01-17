@@ -1,0 +1,145 @@
+* {
+    inset: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+
+    background-color: black;
+    background-image: url(p1.jpg);
+
+}
+
+
+
+div {
+    inset: 0px;
+    z-index: 0;
+
+    border: 2px solid;
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+     grid-template-columns: 1fr 1fr 1fr; 
+     margin: 2px; 
+    gap: 20px; */
+}
+
+
+.content {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+}
+
+div:hover {
+
+    border: 2px solid;
+
+
+    margin: 2px;
+}
+
+
+img {
+
+    width: 200px;
+
+}
+
+img:hover {
+    border: 2px solid rgba(255, 255, 255, 0);
+    box-shadow: 5px 5px 15px 10px rgb(255, 255, 255);
+    transition: 2s;
+    width: 250px;
+
+}
+
+.ironman {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.671);
+    color: rgb(255, 0, 0);
+}
+
+.thor {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.671);
+    color: rgb(0, 51, 255);
+}
+
+.captain {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.671);
+    color: rgb(0, 255, 247);
+}
+
+.spiderman {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.671);
+    color: rgb(255, 0, 0);
+}
+
+.vision {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.671);
+    color: rgb(251, 255, 0);
+}
+
+.loki {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.671);
+    color: rgb(21, 255, 0);
+}
+
+.blackpanther {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.671);
+    color: rgb(179, 0, 255);
+}
+
+.starlord {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.671);
+    color: rgb(255, 136, 0);
+}
+
+.thenos {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.598);
+    color: rgb(179, 0, 255);
+}
+
+.hulk {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.598);
+    color: rgb(64, 255, 0);
+}
+
+.dr {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.598);
+    color: rgb(255, 111, 0);
+}
+
+.groot {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.598);
+    color: rgb(131, 86, 8);
+}
